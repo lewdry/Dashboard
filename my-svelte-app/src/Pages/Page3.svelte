@@ -43,6 +43,7 @@
       font-size: 2vh;
       line-height: 1.2;
       text-align: center;
+      font-weight: 600;
       
       /* Prevent text overflow */
       overflow: hidden;
