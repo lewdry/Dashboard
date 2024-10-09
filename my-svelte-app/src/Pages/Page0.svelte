@@ -31,7 +31,7 @@
   
     button {
       /* Fixed size */
-      width: 18vw; 
+      width: 18vh; 
       height: 6vh; 
       
       /* Flexible text container */
