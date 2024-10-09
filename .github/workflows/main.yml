@@ -25,8 +25,19 @@ jobs:
         working-directory: ./my-svelte-app
         run: npm run build
 
+      - name: Modify index.html
+        run: |
+          sed -i 's|src="/assets/|src="./assets/|g' ./my-svelte-app/dist/index.html
+          sed -i 's|href="/assets/|href="./assets/|g' ./my-svelte-app/dist/index.html
+
+      - name: Create .nojekyll file
+        run: touch ./my-svelte-app/dist/.nojekyll
+
+      - name: List build output
+        run: ls -R ./my-svelte-app/dist
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./my-svelte-app/dist  # Adjusted to point to the correct build output directory
+          personal_token: ${{ secrets.PAT }}
+          publish_dir: ./my-svelte-app/dist
