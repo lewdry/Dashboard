@@ -46,13 +46,10 @@
 
     button {
       /* Fixed size */
-      width: 16vh; 
+      width: 18vh; 
       height: 6vh; 
       
-      /* Flexible text container */
-      display: flex;
-      justify-content: center;
-      align-items: center;
+     
       
       /* Text properties */
       font-size: 2vh;

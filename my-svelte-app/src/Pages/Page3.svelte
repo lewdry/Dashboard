@@ -31,7 +31,7 @@
   
     button {
       /* Fixed size */
-      width: 22vw; 
+      width: 18vh; 
       height: 6vh; 
       
       /* Flexible text container */
@@ -43,7 +43,6 @@
       font-size: 2vh;
       line-height: 1.2;
       text-align: center;
-      font-weight: 600;
       
       /* Prevent text overflow */
       overflow: hidden;
