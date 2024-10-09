@@ -42,13 +42,13 @@ h1 {
 }
 
 .card {
-  padding: 1em;
+  padding: 0em;
 }
 
 #app {
   max-width: 400px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 0rem;
   text-align: center;
 }
 
