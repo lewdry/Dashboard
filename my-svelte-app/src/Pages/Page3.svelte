@@ -19,7 +19,7 @@
     }
   
     p {
-      font-size: 1rem;
+      font-size: 2.5vh;
       line-height: 1.5;
     }
   

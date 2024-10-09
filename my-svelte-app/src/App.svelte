@@ -1,5 +1,6 @@
 <script>
   import { onMount } from 'svelte';
+  import Page0 from './Pages/Page0.svelte';
   import Page1 from './Pages/Page1.svelte';
   import Page2 from './Pages/Page2.svelte';
   import Page3 from './Pages/Page3.svelte';
@@ -19,10 +20,12 @@
 
 <main>
   <div class="game-window">
-    <h1 class="header">Dashboard: a data mystery.</h1>
+    <h1 class="header">EerieBI</h1>
     <div class="content">
       {#if currentPage === 1}
         <Page1 {goToPage} />
+      {:else if currentPage === 0}
+      <Page0 {goToPage} />
       {:else if currentPage === 2}
         <Page2 {goToPage} />
       {:else if currentPage === 3}
