@@ -47,14 +47,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    padding: 1rem;
+    min-height: 80vh;
+    padding: 0rem;
     box-sizing: border-box;
   }
 
   .game-window {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     max-width: 400px;
     max-height: 700px;
     aspect-ratio: 4 / 7;
@@ -67,14 +67,14 @@
 
   @media (orientation: landscape) {
     .game-window {
-      height: 90vh;
+      height: 80vh;
       width: auto;
     }
   }
 
   @media (orientation: portrait) {
     .game-window {
-      width: 90vw;
+      width: 80vw;
       height: auto;
     }
   }
