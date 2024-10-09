@@ -30,13 +30,34 @@
     }
   
     button {
-      padding: 0.5rem 1rem;
-      font-size: 1rem;
+      /* Fixed size */
+      width: 22vw; 
+      height: 6vh; 
+      
+      /* Flexible text container */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      /* Text properties */
+      font-size: 2vh;
+      line-height: 1.2;
+      text-align: center;
+      font-weight: 600;
+      
+      /* Prevent text overflow */
+      overflow: hidden;
+      
+      /* Other styles */
       background-color: #2eb28f;
       color: white;
       border: none;
-      border-radius: 0.25rem;
+      border-radius: 0.5rem;
       cursor: pointer;
+      
+      /* Optional: add padding inside the fixed size */
+      padding: 0.5rem;
+      box-sizing: border-box;
     }
   
     button:hover {

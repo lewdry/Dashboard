@@ -56,8 +56,8 @@
   }
 
   .game-window {
-    width: 80%;
-    height: 80%;
+    width: 75%;
+    height: 75%;
     max-width: 400px;
     max-height: 700px;
     aspect-ratio: 4 / 7;
@@ -70,14 +70,14 @@
 
   @media (orientation: landscape) {
     .game-window {
-      height: 80vh;
+      height: 75vh;
       width: auto;
     }
   }
 
   @media (orientation: portrait) {
     .game-window {
-      width: 80vw;
+      width: 75vw;
       height: auto;
     }
   }
