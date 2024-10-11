@@ -50,49 +50,50 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
-    padding: 0rem;
+    min-height: 90vh;
+    padding: 0em;
     box-sizing: border-box;
   }
 
   .game-window {
-    width: 75%;
-    height: 75%;
+    width: 90%;
+    height: 90%;
     max-width: 400px;
     max-height: 700px;
     aspect-ratio: 4 / 7;
-    border: 0.1rem solid black;
-    border-radius: 2rem;
+    border: 0.1em solid black;
+    border-radius: 2em;
     display: flex;
     flex-direction: column;
     overflow: hidden;
   }
 
+ 
   @media (orientation: landscape) {
     .game-window {
-      height: 75vh;
+      height: 90vh;
       width: auto;
     }
   }
 
   @media (orientation: portrait) {
     .game-window {
-      width: 75vw;
-      height: auto;
+      height: 90vh;
+      width: auto;
     }
   }
 
   .header {
     background-color: #2eb28f;
     color: white;
-    padding: 1rem;
+    padding: 0.5em;
     margin: 0;
     text-align: center;
   }
 
   .content {
     flex-grow: 1;
-    padding: 1rem;
+    padding: 1em;
     display: flex;
     flex-direction: column;
     overflow-y: auto;

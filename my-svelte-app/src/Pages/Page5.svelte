@@ -19,7 +19,7 @@
     }
   
     p {
-      font-size: 2.5vh;
+      font-size: 1.2em;
       line-height: 1.5;
     }
   
@@ -31,17 +31,12 @@
   
     button {
       /* Fixed size */
-      width: 18vh; 
-      height: 6vh; 
-      
-      /* Flexible text container */
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      width: 6.5em; 
+      height: 2.5em; 
       
       /* Text properties */
-      font-size: 2vh;
-      line-height: 1.2;
+      font-size: 1.4em;
+      line-height: 1;
       text-align: center;
       font-weight: 600;
       
@@ -52,11 +47,11 @@
       background-color: #2eb28f;
       color: white;
       border: none;
-      border-radius: 0.5rem;
+      border-radius: 0.5em;
       cursor: pointer;
       
-      /* Optional: add padding inside the fixed size */
-      padding: 0.5rem;
+      /* Padding */
+      padding: 0em;
       box-sizing: border-box;
     }
   
