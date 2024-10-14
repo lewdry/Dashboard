@@ -50,16 +50,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    min-height: 75vh;
     padding: 0em;
     box-sizing: border-box;
   }
 
   .game-window {
-    width: 90%;
+    width: 80%;
     height: 75%;
-    max-width: 800;
-    max-height: 1400px;
+    max-width: 400px;
+    max-height: 700px;
     aspect-ratio: 4 / 7;
     border: 0.1em solid black;
     border-radius: 2em;
