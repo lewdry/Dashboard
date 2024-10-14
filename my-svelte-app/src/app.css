@@ -33,7 +33,7 @@ body {
   display: flex;
   place-items: center;
   min-width: 300px;
-  min-height: 90vh;
+  min-height: 80vh;
 }
 
 h1 {
