@@ -32,12 +32,12 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 300px;
+  min-width: 400px;
   min-height: 80vh;
 }
 
 h1 {
-  font-size: 1.8em;
+  font-size: 1.8rem;
   line-height: 1.1;
 }
 
@@ -85,13 +85,5 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
-  }
-}
-
-@media (max-width: 600px) {
-  body {
-    flex-direction: column;
-    justify-content: center;
-    height: 100vh;
   }
 }

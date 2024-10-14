@@ -3,7 +3,7 @@
   </script>
   
   <div class="page">
-    <p>You find yourself in a strange room. The walls are glowing faintly and the temperature here is noticeably cooler. In the centre of the room is a small green glass bottle, covered in frost. The tunnel continues on the other side of the room.</p>
+    <p>You find yourself in a strange room. The walls are glowing faintly and the temperature here is noticeably cooler.<br><br>In the centre of the room is a small green glass bottle, covered in frost. The tunnel continues on the other side of the room.</p>
     <div class="button-container">
       <button on:click={() => goToPage(2)}>Follow tunnel</button>
       <button on:click={() => goToPage(5)}>Investigate bottle</button>
@@ -20,7 +20,7 @@
   
     p {
       font-size: 1.2em;
-      line-height: 1.5;
+      line-height: 1.2;
     }
   
     .button-container {
@@ -35,7 +35,7 @@
       height: 2.5em; 
       
       /* Text properties */
-      font-size: 1.4em;
+      font-size: 1.2em;
       line-height: 1;
       text-align: center;
       font-weight: 600;
@@ -51,7 +51,7 @@
       cursor: pointer;
       
       /* Padding */
-      padding: 0em;
+      padding: 0.2em;
       box-sizing: border-box;
     }
   

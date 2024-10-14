@@ -23,7 +23,7 @@
   
     p {
       font-size: 1.2em;
-      line-height: 1.5;
+      line-height: 1.2;
     }
   
     .button-container {
@@ -50,7 +50,7 @@
       height: 2.5em; 
       
       /* Text properties */
-      font-size: 1.4em;
+      font-size: 1.2em;
       line-height: 1;
       text-align: center;
       font-weight: 600;

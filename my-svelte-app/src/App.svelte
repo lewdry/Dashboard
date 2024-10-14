@@ -57,31 +57,18 @@
 
   .game-window {
     width: 90%;
-    height: 80%;
-    max-width: 400px;
-    max-height: 700px;
+    height: 75%;
+    max-width: 800;
+    max-height: 1400px;
     aspect-ratio: 4 / 7;
     border: 0.1em solid black;
     border-radius: 2em;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     overflow: hidden;
   }
 
- 
-  @media (orientation: landscape) {
-    .game-window {
-      height: 80vh;
-      width: auto;
-    }
-  }
-
-  @media (orientation: portrait) {
-    .game-window {
-      height: 80vh;
-      width: auto;
-    }
-  }
 
   .header {
     background-color: #2eb28f;
