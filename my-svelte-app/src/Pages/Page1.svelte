@@ -33,6 +33,7 @@
    .page-content {
      flex-grow: 1;
      display: flex;
+     color: #1a1a1a;
      flex-direction: column;
      justify-content: space-between;
      align-items: center;
