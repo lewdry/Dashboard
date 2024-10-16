@@ -3,7 +3,7 @@
   </script>
   
   <div class="page">
-    <p>Welcome to EerieBI, a data mystery. This is a puzzle game, set in a haunted dashboard, where you are tasked with solving the mysterious death of a Junior Performance Analyst.</p>
+    <p>EerieBI is an interactive data mystery, set in a haunted dashboard. Your job is to solve the mysterious death of a Junior Performance Analyst.</p>
     <div class="button-container">
       <div></div> <!-- Empty div for spacing -->
       <button on:click={() => goToPage(1)}>Start</button>

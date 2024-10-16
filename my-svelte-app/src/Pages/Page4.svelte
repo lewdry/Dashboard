@@ -3,10 +3,10 @@
   </script>
   
   <div class="page">
-    <p>You find yourself in a strange room. The walls are glowing faintly and the temperature here is noticeably cooler.<br><br>In the centre of the room is a small green glass bottle, covered in frost. The tunnel continues on the other side of the room.</p>
+    <p>Great work! Now, there's something even more strange I need you to check.<br><br>Chart: Number of mysterious deaths.<br><br>Can you help?</p>
     <div class="button-container">
-      <button on:click={() => goToPage(2)}>Follow tunnel</button>
-      <button on:click={() => goToPage(5)}>Investigate bottle</button>
+      <button on:click={() => goToPage(3)}>Ehh, no thanks</button>
+      <button on:click={() => goToPage(5)}>Of course</button>
     </div>
   </div>
 

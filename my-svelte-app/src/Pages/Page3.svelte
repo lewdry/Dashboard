@@ -3,10 +3,10 @@
   </script>
   
   <div class="page">
-    <p>You continue down a narrow stone tunnel. The air is thick and acrid. You feel the space begin to narrow but you continue regardless untile the walls begin to touch your shoulders. The roof of the tunnel drops down sharply. You'll need to crawl from here.</p>
+    <p>You skip the action, arrogantly.<br><br>You know that someone more junior than you will pick up the slack, and if they don't you'll blame them.<br><br>A freak electrical fault develops in the battery of your device. A small explosion erupts. Not fatal, but not ideal.</p>
     <div class="button-container">
-      <button on:click={() => goToPage(2)}>Turn around</button>
-      <button on:click={() => goToPage(4)}>Crawl</button>
+      <div></div> <!-- Empty div for spacing -->
+      <button on:click={() => goToPage(1)}>Try again</button>
     </div>
   </div>
 

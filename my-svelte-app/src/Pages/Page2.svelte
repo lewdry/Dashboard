@@ -3,10 +3,10 @@
   </script>
   
   <div class="page">
-    <p>You've entered the tunnel and find yourself at a fork. There are two tunnels ahead of you: one to the left and one to the right. Which path will you choose?</p>
+    <p>For action. These numbers don't square</p>
     <div class="button-container">
-      <button on:click={() => goToPage(3)}>Take left tunnel</button>
-      <button on:click={() => goToPage(4)}>Take right tunnel</button>
+      <button on:click={() => goToPage(3)}>Skip</button>
+      <button on:click={() => goToPage(4)}>Next</button>
     </div>
   </div>
 
